@@ -3,7 +3,7 @@ import time
 from db.crud.counteragent import counteragents_bulk_insert_mappings, delete_all_counteragents
 from db.models import Counteragent
 
-
+# d
 def get_file_lines():
     with open("data.txt", mode="r", encoding="utf-8-sig") as file:
         lines = list(csv.DictReader(file, delimiter="\t"))
